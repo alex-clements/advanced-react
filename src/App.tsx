@@ -1,13 +1,8 @@
 import "./App.css";
 import { Main } from "./components/Main";
-import { Providers } from "./context/toastContext";
 
 function App() {
-  return (
-    <Providers>
-      <Main />
-    </Providers>
-  );
+  return <Main />;
 }
 
 export default App;
